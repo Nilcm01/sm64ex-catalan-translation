@@ -2192,7 +2192,7 @@ u8 gTextCourseArr[][7] = {
 #define TXT_STAR_X 98
 #define ACT_NAME_X 116
 #define LVL_NAME_X 117
-#define MYSCORE_X  62
+#define MYSCORE_X  72
 #endif
 
 void render_pause_my_score_coins(void) {
@@ -2938,12 +2938,12 @@ void render_course_complete_lvl_info_and_hud_str(void) {
 #define TXT_SAVECONT_Y 2
 #define TXT_SAVEQUIT_Y 18
 #define TXT_SAVE_EXIT_GAME_Y 38
-#define TXT_CONTNOSAVE_Y 54
+#define TXT_CONTNOSAVE_Y 40
 #else
 #define TXT_SAVECONT_Y 0
 #define TXT_SAVEQUIT_Y 20
 #define TXT_SAVE_EXIT_GAME_Y 40
-#define TXT_CONTNOSAVE_Y 60
+#define TXT_CONTNOSAVE_Y 40
 #endif
 
 #ifdef VERSION_EU
